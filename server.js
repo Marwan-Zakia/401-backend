@@ -91,6 +91,9 @@ server.put('/updatefruit/:id',(req, res) => {
 
 
 
+server.get('*',  (request,response) => {
+    console.log('this my home')
+})
 
 server.get('/',  (request,response) => {
     console.log('this my home')
